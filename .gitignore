@@ -1,0 +1,7 @@
+# Arquivos de objeto
+*.o
+
+# Executáveis
+*.out
+bin/
+build/
