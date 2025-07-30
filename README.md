@@ -1,7 +1,9 @@
----
 # Gerenciador de Produtos
 
-Este é um projeto simples de gerenciamento de produtos implementado em **C**, utilizando uma estrutura de dados de **Lista Duplamente Ligada**. O programa oferece uma interface de terminal interativa com navegação por setas e cores ANSI, projetada para funcionar em sistemas Unix-like, como o macOS.
+Este é um projeto simples de gerenciamento de produtos implementado em **C**. <br>
+Utilizando uma estrutura de dados de **Lista Duplamente Ligada**. <br>
+O programa oferece uma interface de terminal interativa com navegação por setas e cores ANSI, projetada para funcionar em sistemas Unix-like, como o macOS.
+
 ---
 
 ## Funcionalidades
@@ -84,7 +86,6 @@ Ao iniciar o programa, um menu interativo será exibido no terminal.
 - **Navegação**: Use as **setas para CIMA** e **para BAIXO** do teclado para mover a seleção entre as opções do menu.
 - **Seleção**: Pressione **ENTER** para selecionar a opção desejada.
 - **Entrada de Dados**: Para opções que requerem entrada de dados (como inserir ou atualizar), o programa solicitará as informações.
-  - **Atualização de Produto**: Ao atualizar, para qualquer campo (Nome, Preço, Quantidade) que você **não deseje alterar**, basta **pressionar ENTER sem digitar nada**. O programa manterá o valor original para aquele campo.
 - **Navegação Interna**: Na opção "Navegar na Lista (Atual)", use as **setas para a ESQUERDA** e **para a DIREITA** para percorrer os produtos. Pressione **'q'** para sair desta navegação e retornar ao menu principal.
 
 ---

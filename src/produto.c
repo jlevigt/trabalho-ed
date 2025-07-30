@@ -30,7 +30,8 @@ void exibir_detalhes_produto(Produto *p) {
         printf("Produto nulo.\n");
         return;
     }
-    printf("ID: %d, Nome: %s, Preco: %.2f, Quantidade: %d\n",
+    printf("=========================================\n");
+    printf("ID: %d\nNome: %s\nPreco: %.2f R$\nQuantidade: %d\n",
            p->id, p->nome, p->preco, p->quantidade);
 }
 
